@@ -65,7 +65,7 @@ export default function LandingPage() {
                 className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass text-xs sm:text-sm mb-6"
               >
                 <HiOutlineSparkles className="text-emerald-600 text-sm" />
-                <span className="text-slate-700">onlineguru — AI-Powered Study Assistant</span>
+                <span className="text-slate-700">Onlineguru-AI tutor</span>
               </motion.div>
 
               {/* Heading */}
@@ -76,7 +76,7 @@ export default function LandingPage() {
                 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight mb-5 leading-tight"
               >
                 Your{' '}
-                <span className="gradient-text">onlineguru</span> AI Assistant
+                <span className="gradient-text">Onlineguru-AI tutor</span>
               </motion.h1>
 
               {/* Subtext */}
@@ -240,13 +240,13 @@ export default function LandingPage() {
                   Ready to boost your studies?
                 </h2>
                 <p className="text-sm text-slate-600 mb-6">
-                  Start adding notes and let AI handle the rest. Your personal study assistant is waiting.
+                  Start adding notes and let AI handle the rest. Your personal AI tutor is waiting.
                 </p>
                 <Link
                   to="/login"
                   className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 rounded-xl text-sm font-semibold text-white gradient-bg hover:opacity-90 transition-all shadow-xl shadow-emerald-500/20"
                 >
-                  Launch onlineguru
+                  Launch Onlineguru-AI tutor
                   <HiOutlineArrowRight />
                 </Link>
               </div>
@@ -258,7 +258,7 @@ export default function LandingPage() {
       {/* ───────── Footer ───────── */}
       <footer className="px-6 py-6 sm:py-8 border-t border-slate-900/5">
         <div className="max-w-4xl mx-auto flex items-center justify-between text-xs text-slate-500">
-          <span>© 2026 onlineguru</span>
+          <span>© 2026 Onlineguru-AI tutor</span>
           <span></span>
         </div>
       </footer>

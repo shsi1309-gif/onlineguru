@@ -1,5 +1,5 @@
 """
-FastAPI backend for onlineguru.
+FastAPI backend for Onlineguru-AI tutor.
 Provides REST endpoints for notes management and AI question answering.
 """
 
@@ -35,8 +35,8 @@ async def lifespan(app: FastAPI):
 # ──────────────────────────── App Setup ────────────────────────────
 
 app = FastAPI(
-    title="onlineguru API",
-    description="onlineguru smart study assistant backend with TF-IDF & RAG capabilities",
+    title="Onlineguru-AI tutor API",
+    description="Onlineguru-AI tutor backend with TF-IDF & RAG capabilities",
     version="1.2.0",
     lifespan=lifespan
 )
@@ -121,7 +121,7 @@ def get_optional_user(authorization: Optional[str] = Header(None)) -> Optional[d
 
 @app.get("/")
 def root():
-    return {"message": "onlineguru API is running 🧠"}
+    return {"message": "Onlineguru-AI tutor API is running 🧠"}
 
 
 @app.post("/api/auth/signup")

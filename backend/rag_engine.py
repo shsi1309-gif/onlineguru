@@ -161,7 +161,7 @@ def generate_smart_answer(question, document_id=None, image_data=None, user_id=N
             messages=[
                 {
                     "role": "system",
-                    "content": "You are a smart study assistant. Use the provided context to answer the user's question clearly. Do not use outside knowledge if it contradicts the context.",
+                    "content": "You are Onlineguru-AI tutor. Use the provided context to answer the user's question clearly. Do not use outside knowledge if it contradicts the context.",
                 },
                 {
                     "role": "user",

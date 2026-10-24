@@ -58,7 +58,7 @@ export default function LoginPage() {
               <HiOutlineSparkles className="text-white text-lg" />
             </div>
             <span className="text-xl font-bold text-slate-900 tracking-tight">
-              online<span className="gradient-text">guru</span>
+              Onlineguru<span className="gradient-text">-AI tutor</span>
             </span>
           </Link>
         </div>
@@ -72,8 +72,8 @@ export default function LoginPage() {
             </h1>
             <p className="text-sm text-slate-500">
               {isSignup
-                ? 'Start your AI-powered study journey'
-                : 'Sign in to access onlineguru'}
+                ? 'Start your AI-powered learning journey'
+                : 'Sign in to access Onlineguru-AI tutor'}
             </p>
           </div>
 
@@ -165,7 +165,7 @@ export default function LoginPage() {
 
         {/* Footer */}
         <p className="text-center text-xs text-slate-400 mt-6">
-          © 2026 onlineguru
+          © 2026 Onlineguru-AI tutor
         </p>
       </motion.div>
     </div>

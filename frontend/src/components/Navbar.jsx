@@ -29,7 +29,7 @@ export default function Navbar() {
             <HiOutlineSparkles className="text-slate-900 text-base" />
           </div>
           <span className="text-base sm:text-lg font-bold text-slate-900 tracking-tight">
-            online<span className="gradient-text">guru</span>
+            Onlineguru<span className="gradient-text">-AI tutor</span>
           </span>
         </Link>
 

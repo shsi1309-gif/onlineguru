@@ -135,7 +135,7 @@ export default function AskAI() {
                 <span className="text-slate-700">AI-Powered Answers</span>
               </div>
               <h1 className="text-2xl sm:text-4xl font-bold text-slate-900 mb-3">
-                Ask <span className="gradient-text">onlineguru</span>
+                Ask <span className="gradient-text">Onlineguru-AI tutor</span>
               </h1>
               <p className="text-sm text-slate-600 mb-8 max-w-md mx-auto leading-relaxed">
                 Type or speak your question — AI will search your notes for the best answer.
@@ -299,7 +299,7 @@ export default function AskAI() {
                     onChange={(e) => setQuestion(e.target.value)}
                     onKeyDown={handleKeyDown}
                     onPaste={handlePaste}
-                    placeholder={pastedImage ? "Ask about this image..." : "Message onlineguru..."}
+                    placeholder={pastedImage ? "Ask about this image..." : "Message Onlineguru-AI tutor..."}
                     rows={1}
                     className="w-full px-4 py-3 rounded-xl bg-slate-900/5 border border-slate-900/10 text-slate-900 placeholder-slate-500 focus:outline-none focus:border-emerald-500/50 focus:ring-1 focus:ring-emerald-500/25 transition-all resize-none text-sm sm:text-[15px]"
                     style={{ minHeight: '52px', maxHeight: '150px' }}

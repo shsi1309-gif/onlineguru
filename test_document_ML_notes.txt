@@ -1,7 +1,7 @@
 MACHINE LEARNING — COMPLETE STUDY NOTES
 ==========================================
 Subject: Artificial Intelligence & Machine Learning
-Prepared for: onlineguru Test
+Prepared for: Onlineguru-AI tutor Test
 
 ==========================================
 CHAPTER 1: INTRODUCTION TO MACHINE LEARNING

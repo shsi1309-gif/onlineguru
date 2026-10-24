@@ -1,5 +1,5 @@
 """
-AI Engine for onlineguru.
+AI Engine for Onlineguru-AI tutor.
 Handles keyword extraction, note matching, and answer generation.
 Uses a TF-IDF-inspired scoring approach — no external AI libraries needed.
 """

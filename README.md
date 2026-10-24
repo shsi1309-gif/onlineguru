@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="./banner.png" alt="onlineguru Banner" width="100%"/>
+  <img src="./banner.png" alt="Onlineguru-AI tutor Banner" width="100%"/>
 </div>
 
-# 🧠 onlineguru — Smart AI Study Assistant
+# 🧠 Onlineguru-AI tutor
 
-![onlineguru](https://img.shields.io/badge/onlineguru-AI-success) ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+![Onlineguru-AI tutor](https://img.shields.io/badge/Onlineguru--AI--tutor-success) ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
 
-A full-stack, cloud-native **AI Study Assistant** that uses **Retrieval-Augmented Generation (RAG)** to answer questions based entirely on your uploaded documents, notes, and images.
+A full-stack, cloud-native **Onlineguru-AI tutor** that uses **Retrieval-Augmented Generation (RAG)** to answer questions based entirely on your uploaded documents, notes, and images.
 
 Built as an AI mini-project, this application allows users to upload any document (PDF, Excel, Word), paste images directly into the chat, or use their voice to ask questions. The AI intelligently retrieves relevant context from a Supabase vector database and synthesizes accurate, hallucination-free answers.
 
@@ -220,7 +220,7 @@ $$;
 
 ## 🚀 Live Demo
 
-- **Frontend Application**: [https://smart-ai-study-assistant.vercel.app](https://smart-ai-study-assistant.vercel.app)
+- **Frontend Application**: [https://onlineguru-ai-tutor.vercel.app](https://onlineguru-ai-tutor.vercel.app)
   - **Demo Account Email:** `admin@test.com`
   - **Demo Account Password:** `testing`
 - **Backend API Endpoint**: [https://backend-seven-wine-16.vercel.app](https://backend-seven-wine-16.vercel.app)
@@ -314,7 +314,7 @@ npm run dev
 <details>
 <summary><strong>Q1. What is the main objective of this project?</strong></summary>
 
-The objective is to build a full-stack, cloud-native **Smart AI Study Assistant** that allows students to upload textbooks, notes, and diagrams, and then ask questions. The application uses **Retrieval-Augmented Generation (RAG)** to provide accurate, context-aware answers based *only* on the uploaded documents, eliminating AI hallucinations.
+The objective is to build a full-stack, cloud-native **Onlineguru-AI tutor** that allows students to upload textbooks, notes, and diagrams, and then ask questions. The application uses **Retrieval-Augmented Generation (RAG)** to provide accurate, context-aware answers based *only* on the uploaded documents, eliminating AI hallucinations.
 </details>
 
 <details>
@@ -356,7 +356,7 @@ The current architecture relies on cloud APIs (OpenRouter for LLM/Embeddings and
 </details>
 
 <details>
-<summary><strong>Q7. What are the main challenges when building a study assistant for students?</strong></summary>
+<summary><strong>Q7. What are the main challenges when building an AI tutor for students?</strong></summary>
 
 1. **Hallucinations**: LLMs making up facts not present in the study materials. (Solved via RAG).
 2. **Parsing complex files**: Handling multi-column PDFs, tables, or scanned diagrams. (Solved using `markitdown` and vision models).
@@ -567,14 +567,14 @@ OpenRouter is a unified API gateway that aggregates dozens of state-of-the-art L
 <summary><strong>Q35. How is the RAG prompt structured in your code?</strong></summary>
 
 In `rag_engine.py`, the prompt has two parts:
-- **System Prompt**: *"You are a smart study assistant. Use the provided context to answer the user's question clearly. Do not use outside knowledge if it contradicts the context."*
+- **System Prompt**: *"You are Onlineguru-AI tutor. Use the provided context to answer the user's question clearly. Do not use outside knowledge if it contradicts the context."*
 - **User Prompt**: Includes the retrieved context chunks separated by `---` dividers, followed by the user's question.
 </details>
 
 <details>
 <summary><strong>Q36. What temperature setting did you use for the LLM, and why?</strong></summary>
 
-We set the temperature to **0.3** (a low value). Lower temperatures make LLM output deterministic, focused, and factual — ideal for a study assistant where accuracy matters. Higher temperatures (like 0.8+) make responses creative and unpredictable, which is undesirable for academic Q&A.
+We set the temperature to **0.3** (a low value). Lower temperatures make LLM output deterministic, focused, and factual — ideal for an AI tutor where accuracy matters. Higher temperatures (like 0.8+) make responses creative and unpredictable, which is undesirable for academic Q&A.
 </details>
 
 <details>
@@ -686,6 +686,6 @@ In `api.js`, we define an `API_BASE` URL that reads the `VITE_API_URL` environme
 
 ---
 
-*Built with 🧠 for better, smarter studying. Good luck with your viva! 🎓*
+*Built with 🧠 for better, smarter tutoring. Good luck with your viva! 🎓*
 
 
