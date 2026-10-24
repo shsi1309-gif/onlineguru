@@ -76,7 +76,7 @@ export default function LandingPage() {
                 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight mb-5 leading-tight"
               >
                 Your{' '}
-                <span className="gradient-text">Onlineguru-AI tutor</span>
+                <span className="gradient-text">AI Tutor</span>
               </motion.h1>
 
               {/* Subtext */}
